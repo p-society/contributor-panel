@@ -2,6 +2,7 @@ import "dotenv/config";
 import Fastify from "fastify";
 import fastifyCors from "@fastify/cors";
 import { getUserDetails } from "./routers/GetuserDetails";
+import { postUserDetails } from "./routers/PostuserDetails";
 
 
 
@@ -31,6 +32,7 @@ fastify.get('/', async () => {
 })
 
 fastify.get('/details', getUserDetails);
+fastify.post('/add-details', postUserDetails);
 
 fastify.listen({ port: 3000 }, (err) => {
   if (err) {

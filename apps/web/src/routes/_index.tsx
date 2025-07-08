@@ -5,7 +5,7 @@ import { Skeleton } from "../components/ui/skeleton";
 
 
 export function meta({}: Route.MetaArgs) {
-  return [{ title: "My App" }, { name: "description", content: "My App" }];
+  return [{ title: "leaderboard" }, { name: "description", content: "leaderboard" }];
 }
 
 export default function Home() {

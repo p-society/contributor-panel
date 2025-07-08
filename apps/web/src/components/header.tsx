@@ -4,7 +4,7 @@ import { ModeToggle } from "./mode-toggle";
 
 export default function Header() {
   const links = [
-    { to: "/", label: "Home" },
+    { to: "/", label: "PSOC" },//programming-society IIIT-BH
   ];
 
   return (

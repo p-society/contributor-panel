@@ -15,6 +15,13 @@
       "when": 1751960401548,
       "tag": "0001_charming_mercury",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1751962896576,
+      "tag": "0002_friendly_rick_jones",
+      "breakpoints": true
     }
   ]
 }
