@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `points` integer DEFAULT 0 NOT NULL;
