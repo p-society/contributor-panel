@@ -49,7 +49,7 @@ importers:
         specifier: ^1.8.11
         version: 1.8.16
       tsx:
-        specifier: ^4.19.2
+        specifier: ^4.20.3
         version: 4.20.3
       typescript:
         specifier: ^5.8.2

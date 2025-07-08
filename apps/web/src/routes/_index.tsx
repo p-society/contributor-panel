@@ -18,11 +18,12 @@ export default function Home() {
 
   useEffect(() => {
     setLoading(true);
-    fetch("localhost:3000/details")
+    fetch("http://localhost:3000/details")
       .then((res) => res.json())
       .then((data) => {
         setContributors(data);
         setLoading(false);
+        console.log("Contributors fetched:", data);
       })
       .catch(() => setLoading(false));
   }, []);
