@@ -50,8 +50,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className="grid grid-rows-[auto_1fr] h-svh">
-        <Header />
+      <div className="grid grid-rows-1 h-svh">
         <Outlet />
       </div>
       <Toaster richColors />
